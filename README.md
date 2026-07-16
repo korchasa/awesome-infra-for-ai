@@ -303,6 +303,7 @@ Table of Contents:
 - [zengxiao-he/tessera](https://github.com/zengxiao-he/tessera) (557 Python) - From teacher to tiles — a from-scratch LLM distillation & serving engine: custom Triton/CUDA kernels, FSDP distillation, paged-KV continuous batching, speculative decoding, a Rust gateway, a JAX or...
 - [zhihu/ZhiLight](https://github.com/zhihu/ZhiLight) (905 C++) - ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, developed by Zhihu and ModelBest Inc., designed for efficient deployment on various NVIDIA GPUs.
 - [zilliztech/GPTCache](https://github.com/zilliztech/GPTCache) (8095 Python) - GPTCache is a library that creates a semantic cache for LLM queries, significantly reducing API costs and improving response times by storing and reusing previous LLM responses.
+- [kvcachestore/kvcdn](https://github.com/kvcachestore/kvcdn) (Rust) - KV Cache Store is an open-source Rust CLI (with a hosted registry) for verifying, quantizing, uploading, and sharing key/value cache artifacts between LLM inference runs, cutting prefill cost and latency for RAG and long-context prompts.
 
 ### Vector Databases & Retrieval Infrastructure
 
