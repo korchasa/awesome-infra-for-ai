@@ -12,10 +12,10 @@ model-training phase).
 
 Table of Contents:
 - [LLMOps](#llmops)
-    - [LLM Observability & Tracing](#llm-observability-&-tracing) (32)
+    - [LLM Observability & Tracing](#llm-observability-&-tracing) (33)
     - [LLM Evaluation & Testing](#llm-evaluation-&-testing) (43)
     - [Prompt Management](#prompt-management) (16)
-    - [LLM Gateways & Proxies](#llm-gateways-&-proxies) (65)
+    - [LLM Gateways & Proxies](#llm-gateways-&-proxies) (66)
     - [AI Safety & Guardrails](#ai-safety-&-guardrails) (19)
 - [Model Serving & Inference](#model-serving-&-inference)
     - [Model Serving Frameworks](#model-serving-frameworks) (40)
@@ -50,6 +50,7 @@ Table of Contents:
 - [langfuse/oss-llmops-stack](https://github.com/langfuse/oss-llmops-stack) (139 ) - An open-source, modular LLMOps stack combining LiteLLM for LLM API unification, routing, and cost control, with Langfuse for detailed observability, prompt versioning, and performance evaluation in...
 - [latitude-dev/latitude-llm](https://github.com/latitude-dev/latitude-llm) (4420 TypeScript) - Latitude is an open-source AI monitoring platform that provides issue detection, human-aligned evaluations, and agent-native tracing for LLM applications and AI agents.
 - [liaohch3/claude-tap](https://github.com/liaohch3/claude-tap) (2357 Python) - A local proxy and trace viewer for AI coding agents, capturing and inspecting API traffic to debug agent behavior and analyze prompts, messages, and tool definitions.
+- [madhavajay/alex](https://github.com/madhavajay/alex) (28 TypeScript) - Alex is a local Rust LLM proxy with an optional UI, combining local request, cost, session, and tool-execution traces with scriptable middleware, subscription bonding, failover, and messenger-assisted re-authentication.
 - [lmnr-ai/lmnr](https://github.com/lmnr-ai/lmnr) (3087 TypeScript) - Laminar is an open-source observability platform purpose-built for AI agents, offering tracing, evaluation, AI monitoring, SQL access, dashboards, and data annotation for LLM-based applications.
 - [msfirebird/claw-lens](https://github.com/msfirebird/claw-lens) (504 TypeScript) - An open-source, local-first observability dashboard for OpenClaw AI agents, providing cost analytics, live monitoring, deep session inspection, and security auditing.
 - [openlit/openlit](https://github.com/openlit/openlit) (2592 TypeScript) - OpenLIT is an open-source platform offering OpenTelemetry-native observability for LLMs, including GPU monitoring, guardrails, evaluations, prompt management, and API key vault, to streamline AI de...
@@ -145,6 +146,7 @@ Table of Contents:
 - [bitrouter/bitrouter](https://github.com/bitrouter/bitrouter) (197 Rust) - BitRouter is an open-source, local-first LLM router built in Rust that optimizes AI agent performance and cost by dynamically routing requests to the most appropriate LLM, supporting multiple provi...
 - [caidaoli/ccLoad](https://github.com/caidaoli/ccLoad) (351 Go) - ccLoad is an AI API gateway that provides smart routing, automatic failover, exponential cooldown, multi-URL scheduling, real-time monitoring, and cost control for various LLM APIs.
 - [caozhiyuan/copilot-api](https://github.com/caozhiyuan/copilot-api) (906 TypeScript) - A small AI gateway acting as an OpenAI and Anthropic-compatible proxy for GitHub Copilot, Codex, and other third-party AI providers, enabling unified access and management.
+- [madhavajay/alex](https://github.com/madhavajay/alex) (28 TypeScript) - Alex is a local Rust LLM gateway with an optional UI that routes coding agents across providers through compatible endpoints, with scriptable middleware, subscription bonding, failover, and messenger-assisted re-authentication.
 - [casdoor/casdoor](https://github.com/casdoor/casdoor) (13877 Go) - Casdoor is an open-source, "AI-first" Identity and Access Management (IAM) and Model Context Protocol (MCP) gateway, providing authentication and authorization for AI applications and agents.
 - [Chleba/ollamaMQ](https://github.com/Chleba/ollamaMQ) (112 Rust) - ollamaMQ is a high-performance, asynchronous proxy and load balancer for Ollama and LM Studio APIs, providing multi-backend load balancing, fair-share queuing, model-aware routing, and a real-time ...
 - [coaidev/coai](https://github.com/coaidev/coai) (9228 TypeScript) - CoAI.Dev is a next-generation, multi-tenant LLM gateway and AIGC solution offering unified API access, load balancing, cost management, and various AI application features for over 200 models from ...
