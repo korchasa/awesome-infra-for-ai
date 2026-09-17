@@ -10,6 +10,10 @@ AI-agent orchestration, and production model monitoring (excluding the
 model-training phase).
 
 
+Read it as a website at [infra-for-ai.korchasa.dev](https://infra-for-ai.korchasa.dev/):
+every project has a page of its own, the weekly issues are archived, and
+[search](https://infra-for-ai.korchasa.dev/search/) looks through the whole list at once.
+
 Table of Contents:
 - [LLMOps](#llmops)
     - [LLM Observability & Tracing](#llm-observability-&-tracing) (46)
