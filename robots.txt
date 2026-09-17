@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://infra-for-ai.korchasa.dev/sitemap.xml
